@@ -8,3 +8,4 @@
 - FOR XML PATH
 - Analyzing a Query 
 - Pagination
+- Tally
