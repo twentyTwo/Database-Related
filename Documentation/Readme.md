@@ -1,5 +1,6 @@
 ## Documentation
 - STUFF
+- LEAD / LAG
 - XML PATH
 - COALESCE
 - RANK Functions
