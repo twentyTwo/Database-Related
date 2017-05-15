@@ -10,3 +10,4 @@
 - Analyzing a Query 
 - Pagination
 - Tally
+- GROUP_CONCAT
