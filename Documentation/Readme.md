@@ -20,9 +20,10 @@
    SELECT PARSENAME(@ObjectName, 4) as Server,PARSENAME(@ObjectName, 3) as DB,PARSENAME(@ObjectName, 2) as Owner,PARSENAME(@ObjectName, 1)    as Object
    ```
    Output: 
-   Server|DB|Owner|Object
-   --------------|---------|---|--------
-   HeadOfficeSQL1|Northwind|dbo|Authors
+   
+   |    Server    |    DB   |Owner| Object|
+   |--------------|---------|-----|-------|
+   |HeadOfficeSQL1|Northwind| dbo |Authors|
    
    
    * Example 2
