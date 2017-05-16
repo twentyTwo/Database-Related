@@ -17,7 +17,8 @@
    Declare @ObjectName nVarChar(1000) 
    Set @ObjectName = 'HeadOfficeSQL1.Northwind.dbo.Authors' 
 
-   SELECT PARSENAME(@ObjectName, 4) as Server,PARSENAME(@ObjectName, 3) as DB,PARSENAME(@ObjectName, 2) as Owner,PARSENAME(@ObjectName, 1)    as Object
+   SELECT PARSENAME(@ObjectName, 4) as Server,PARSENAME(@ObjectName, 3) as DB,PARSENAME(@ObjectName, 2) 
+   as Owner,PARSENAME(@ObjectName, 1)   as Object
    ```
    Output: 
    
