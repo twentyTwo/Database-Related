@@ -11,3 +11,4 @@
 - Pagination
 - Tally
 - GROUP_CONCAT
+- PARSENAME
